@@ -1,8 +1,7 @@
 import React from "react";
 import { name, city } from "../data/data.js";
 
-const name= 'Gregg Ochieng';
-const city= 'New York';
+console.log(name, city);
 
 function Home() {
   // update the JSX being returned!
