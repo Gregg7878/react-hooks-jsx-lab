@@ -5,6 +5,7 @@ function About() {
   return (
     <div id="about">
       <h2>About Me</h2>
+      <img alt="I made this" src={image} />
       <p>
         <ul>
           <li>I am lovable.</li>
@@ -15,7 +16,6 @@ function About() {
           <li>I have realistic expectations of myself.</li>
           <li>My opinion of me is more important than others' opinion of me.</li>
         </ul>
-        <img alt="I made this" src={image} />
       </p>
     </div>
   );
